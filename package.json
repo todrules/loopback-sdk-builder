@@ -1,6 +1,6 @@
 {
-  "name": "@mean-expert/loopback-sdk-builder",
-  "version": "2.1.0-rc.2",
+  "name": "loopback-sdk-builder",
+  "version": "0.1.0",
   "description": "Tool for auto-generating Software Development Kits (SDKs) for LoopBack",
   "bin": {
     "lb-sdk": "bin/lb-sdk"
@@ -15,74 +15,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mean-expert-official/loopback-sdk-builder.git"
+    "url": "https://github.com/todrules/loopback-sdk-builder.git"
   },
   "keywords": [
     "loopback",
     "cli",
     "angular",
-    "angular2",
-    "nativescript",
-    "{N}"
+    "angular2"
   ],
   "author": {
-    "name": "Jonathan Casarrubias",
-    "email": "jcasarrubias@mean.expert",
-    "url": "http://mean.expert"
+    "name": "Todd Goodwin",
+    "email": "todd@mobilephone.guru",
+    "url": "http://mobilephone.guru"
   },
-  "contributors": [
-    {
-      "name": "João Ribeiro",
-      "email": "jonnybgod@gmail.com",
-      "url": "http://jonnybgod.ghost.io"
-    },
-    {
-      "name": "Nikolay Matiushenkov",
-      "email": "mnvxxx@gmail.com",
-      "url": "https://github.com/mnvx"
-    },
-    {
-      "name": "Sylvain Dumont",
-      "email": "sylvain.dumont35@gmail.com",
-      "url": "https://www.weboaks.com"
-    },
-    {
-      "name": "Yonggang Luo",
-      "email": "luoyonggang@gmail.com",
-      "url": "https://github.com/lygstate"
-    },
-    {
-      "name": "Chris Tunbridge",
-      "email": "blasterjr@gmail.com",
-      "url": "https://github.com/Destreyf"
-    },
-    {
-      "name": "Miguel Serrano",
-      "email": "miguelangelserrano4@gmail.com",
-      "url": "https://github.com/Serranom4"
-    },
-    {
-      "name": "Julien Ledun",
-      "email": "j.ledun@iosystems.fr",
-      "url": "https://github.com/jledun"
-    },
-    {
-      "name": "Paul Robinson",
-      "email": "probinson@nextfaze.com",
-      "url": "https://github.com/viki53"
-    },
-    {
-      "name": "Corentin Hatte",
-      "email": "contact@corentin-hatte.eu",
-      "url": "https://github.com/viki53"
-    }
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mean-expert-official/loopback-sdk-builder/issues"
+    "url": "https://github.com/todrules/loopback-sdk-builder/issues"
   },
   "dependencies": {
-    "@mean-expert/loopback-component-realtime": "^1.0.0-beta.8",
     "chalk": "1.1.3",
     "ejs": "1.0",
     "extfs": "0.0.7",
